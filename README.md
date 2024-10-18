@@ -28,6 +28,7 @@ This project is an automation testing framework built using Java and Selenium We
 ```bash
 git clone https://github.com/ajaajahmad/automation.git
 cd automation
+```
 
 ### Setup the Project
 
