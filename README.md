@@ -1,3 +1,7 @@
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/ajaajahmad/automation)](https://github.com/ajaajahmad/automation/issues)
+[![GitHub stars](https://img.shields.io/github/stars/ajaajahmad/automation)](https://github.com/ajaajahmad/automation/stargazers)
+
 # Java Selenium WebDriver Automation Project
 
 ## Overview
