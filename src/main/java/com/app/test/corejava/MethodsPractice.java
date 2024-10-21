@@ -1,9 +1,8 @@
-package com.app.test;
+package com.app.test.corejava;
 
 public class MethodsPractice {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		
 

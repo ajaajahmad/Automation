@@ -30,7 +30,7 @@ public class PracticeSell {
 		driver.get("https://staging.goinfinito.com/");
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
-		driver.close();		
+		driver.quit();		
 
 	}
 

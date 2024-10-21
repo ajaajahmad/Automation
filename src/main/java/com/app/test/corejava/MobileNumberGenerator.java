@@ -1,4 +1,4 @@
-package com.app.test;
+package com.app.test.corejava;
 
 import java.util.HashSet;
 import java.util.Random;

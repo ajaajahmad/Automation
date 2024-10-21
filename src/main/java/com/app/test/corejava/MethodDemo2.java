@@ -1,4 +1,4 @@
-package com.app.test;
+package com.app.test.corejava;
 
 public class MethodDemo2 {
 	
@@ -6,6 +6,8 @@ public class MethodDemo2 {
 	
 	{
 		System.out.println("Hello World!");
+		
 		return "ajaaj ahmad";
 	}
+
 }

@@ -9,8 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Locators {
 
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\CodeBase\\Automation\\chromedriver\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:\\CodeBase\\Automation\\chromedriver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
@@ -34,11 +33,8 @@ public class Locators {
 		driver.findElement(By.cssSelector("input[type*='pass']")).sendKeys("rahulshettyacademy");
 		driver.findElement(By.id("chkboxOne")).click();
 		driver.findElement(By.xpath("//button[contains(@class,'submit')]")).click();
+		driver.quit();
 		
-		
-		
-		
-
 	}
 
 }

@@ -11,7 +11,7 @@ import org.testng.Assert;
 public class AutoSuggest {
 
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
+
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
