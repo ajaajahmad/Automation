@@ -12,7 +12,7 @@ import org.testng.Assert;
 public class Locators2 {
 
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
+		
 		String name = "Sam";
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
@@ -33,35 +33,35 @@ public class Locators2 {
 	
 	public static String getPassword(WebDriver driver) throws InterruptedException {
 	
-	driver.get("https://rahulshettyacademy.com/locatorspractice/");
-	driver.findElement(By.linkText("Forgot your password?")).click();
-	Thread.sleep(1000);
+		driver.get("https://rahulshettyacademy.com/locatorspractice/");
+		driver.findElement(By.linkText("Forgot your password?")).click();
+		Thread.sleep(1000);
 
-	driver.findElement(By.cssSelector(".reset-pwd-btn")).click();
+		driver.findElement(By.cssSelector(".reset-pwd-btn")).click();
 
-	String passwordText =driver.findElement(By.cssSelector("form p")).getText();
+		String passwordText =driver.findElement(By.cssSelector("form p")).getText();
 	
-	//Please use temporary password 'rahulshettyacademy' to Login.
+		//Please use temporary password 'rahulshettyacademy' to Login.
 
-	String[] passwordArray = passwordText.split("'");
+		String[] passwordArray = passwordText.split("'");
 
-	// String[] passwordArray2 = passwordArray[1].split("'");
+		// String[] passwordArray2 = passwordArray[1].split("'");
 
-	// passwordArray2[0]
+		// passwordArray2[0]
 
-	String password = passwordArray[1].split("'")[0];
+		String password = passwordArray[1].split("'")[0];
 
-	return password;
+		return password;
 
-	//0th index - Please use temporary password
+		//0th index - Please use temporary password
 
-	//1st index - rahulshettyacademy' to Login.
+		//1st index - rahulshettyacademy' to Login.
 
 
 
-	//0th index - rahulshettyacademy
+		//0th index - rahulshettyacademy
 
-	//1st index - to Login.
+		//1st index - to Login.
 	
 	
 	

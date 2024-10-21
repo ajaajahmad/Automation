@@ -8,7 +8,6 @@ import org.testng.Assert;
 public class UpdatedDropdown {
 
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
 		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
